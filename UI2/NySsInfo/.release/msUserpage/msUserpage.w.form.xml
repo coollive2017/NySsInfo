@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYNNnii" component="$model/UI2/system/components/justep/window/window" design="device:pc" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYNNnii" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/pagerBar/pagerBar,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/bootstrap/pagination/pagination,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/toolBar/toolBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/grid/grid,$model/UI2/system/components/bootstrap/inputGroup/inputGroup,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cYNNnii" class="cYNNnii"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcY3IF7v-iosstatusbar cYNNnii" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYNNnii"> 
+    <div class="x-panel-top cYNNnii" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYNNnii">
+      <div component="$model/UI2/system/components/justep/toolBar/toolBar" class="x-toolbar form-inline x-toolbar-spliter cYNNnii" xid="toolBar3" data-bind="component:{name:'$model/UI2/system/components/justep/toolBar/toolBar'}" __cid="cYNNnii"> 
+        <span xid="span4" __cid="cYNNnii" class="cYNNnii">----成员管理----</span>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYNNnii" xid="edit" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:editClick" data-config="{&quot;icon&quot;:&quot;icon-edit&quot;,&quot;label&quot;:&quot;编辑&quot;}" __cid="cYNNnii"> 
+          <i xid="i10" class="icon-edit cYNNnii" __cid="cYNNnii"/>  
+          <span xid="span33" __cid="cYNNnii" class="cYNNnii">编辑</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cYNNnii" xid="delete" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:deleteClick" data-config="{&quot;icon&quot;:&quot;icon-android-remove&quot;,&quot;label&quot;:&quot;删除&quot;}" __cid="cYNNnii"> 
+          <i xid="i12" class="icon-android-remove cYNNnii" __cid="cYNNnii"/>  
+          <span xid="span40" __cid="cYNNnii" class="cYNNnii">删除</span>
+        </a>  
+        <div class="input-group pull-right cYNNnii" component="$model/UI2/system/components/bootstrap/inputGroup/inputGroup" xid="inputGroup4" data-bind="component:{name:'$model/UI2/system/components/bootstrap/inputGroup/inputGroup'}" __cid="cYNNnii"> 
+          <input type="text" class="form-control cYNNnii" component="$model/UI2/system/components/justep/input/input" xid="selectCondition" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;String&quot;,&quot;placeHolder&quot;:&quot;请输入&quot;}" __cid="cYNNnii"/>  
+          <div class="input-group-btn cYNNnii" xid="layoutWizard2" __cid="cYNNnii"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-only-icon cYNNnii" xid="select" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:selectClick" data-config="{&quot;icon&quot;:&quot;icon-android-search&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cYNNnii"> 
+              <i xid="i6" class="icon-android-search cYNNnii" __cid="cYNNnii"/>  
+              <span xid="span25" __cid="cYNNnii" class="cYNNnii"/>
+            </a> 
+          </div> 
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content cYNNnii" xid="content2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYNNnii">
+      <xhtml:table xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/grid/grid" hiddenCaptionbar="true" altRows="true" class="x-grid-no-bordered cYNNnii" xid="grid1" data="userData" showRowNumber="true" data-config="{&quot;altRows&quot;:true,&quot;colModel&quot;:[{&quot;name&quot;:&quot;fUserName&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column3&quot;},{&quot;name&quot;:&quot;fName&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column6&quot;},{&quot;editable&quot;:true,&quot;name&quot;:&quot;fAut&quot;,&quot;width&quot;:&quot;80&quot;,&quot;xid&quot;:&quot;column1&quot;},{&quot;name&quot;:&quot;fAcademy&quot;,&quot;width&quot;:&quot;200&quot;,&quot;xid&quot;:&quot;column7&quot;},{&quot;name&quot;:&quot;fDepartment&quot;,&quot;width&quot;:&quot;200&quot;,&quot;xid&quot;:&quot;column5&quot;},{&quot;name&quot;:&quot;fPassWord&quot;,&quot;width&quot;:&quot;250&quot;,&quot;xid&quot;:&quot;column4&quot;}],&quot;data&quot;:&quot;userData&quot;,&quot;editors&quot;:&quot;7B6A706AEA3548F28957DC28ACB34896&quot;,&quot;height&quot;:&quot;100%&quot;,&quot;hiddenCaptionbar&quot;:true,&quot;rownumbers&quot;:true,&quot;width&quot;:&quot;100%&quot;}" data-bind="component:{name:'$model/UI2/system/components/justep/grid/grid'}" data-events="onRowDblClick:grid1RowDblClick" __cid="cYNNnii"/>
+      <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" xid="7B6A706AEA3548F28957DC28ACB34896" class="x-grid-editors cYNNnii" bind-with="comp('grid1').getCellEditorsBindingObject()" __cid="cYNNnii">
+        <xhtml:div col="fAut" __cid="cYNNnii" class="cYNNnii">
+          <xhtml:input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit-focusin cYNNnii" data-bind="component:{ref:ref('fAut'),name:'$model/UI2/system/components/justep/input/input'}" __cid="cYNNnii"/>
+        </xhtml:div>
+      </xhtml:div>
+    </div>  
+    <div class="x-panel-bottom cYNNnii" xid="bottom2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYNNnii">
+      <div component="$model/UI2/system/components/justep/pagerBar/pagerBar" class="x-pagerbar container-fluid cYNNnii" xid="pagerBar3" data-bind="component:{name:'$model/UI2/system/components/justep/pagerBar/pagerBar'}" data-config="{&quot;data&quot;:&quot;userData&quot;}" __cid="cYNNnii"> 
+        <div class="row cYNNnii" xid="div19" __cid="cYNNnii"> 
+          <div class="col-sm-3 cYNNnii" xid="div20" __cid="cYNNnii"> 
+            <div class="x-pagerbar-length cYNNnii" xid="div21" __cid="cYNNnii"> 
+              <label component="$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect" class="x-pagerlimitselect cYNNnii" xid="pagerLimitSelect3" data-bind="component:{name:'$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect'}" data-config="{&quot;data&quot;:&quot;userData&quot;,&quot;defaultValue&quot;:10}" __cid="cYNNnii"> 
+                <span xid="span34" __cid="cYNNnii" class="cYNNnii">显示</span>  
+                <select component="$model/UI2/system/components/justep/select/select" class="form-control input-sm cYNNnii" xid="select5" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="cYNNnii"> 
+                  <option value="10" xid="default26" __cid="cYNNnii" class="cYNNnii">10</option>  
+                  <option value="20" xid="default27" __cid="cYNNnii" class="cYNNnii">20</option>  
+                  <option value="50" xid="default28" __cid="cYNNnii" class="cYNNnii">50</option>  
+                  <option value="100" xid="default29" __cid="cYNNnii" class="cYNNnii">100</option>  
+                  <option value="5000" xid="default30" __cid="cYNNnii" class="cYNNnii">5000</option>
+                </select>  
+                <span xid="span35" __cid="cYNNnii" class="cYNNnii">条</span>
+              </label> 
+            </div> 
+          </div>  
+          <div class="col-sm-3 cYNNnii" xid="div22" __cid="cYNNnii"> 
+            <div class="x-pagerbar-info cYNNnii" xid="div23" __cid="cYNNnii">当前显示0条，共0条</div>
+          </div>  
+          <div class="col-sm-6 cYNNnii" xid="div24" __cid="cYNNnii"> 
+            <div class="x-pagerbar-pagination cYNNnii" xid="div25" __cid="cYNNnii"> 
+              <ul class="pagination cYNNnii" component="$model/UI2/system/components/bootstrap/pagination/pagination" xid="pagination3" data-bind="component:{name:'$model/UI2/system/components/bootstrap/pagination/pagination'}" data-config="{&quot;data&quot;:&quot;userData&quot;}" __cid="cYNNnii"> 
+                <li class="prev cYNNnii" xid="li2" __cid="cYNNnii"> 
+                  <a href="#" xid="a5" __cid="cYNNnii" class="cYNNnii"> 
+                    <span aria-hidden="true" xid="span36" __cid="cYNNnii" class="cYNNnii">«</span>  
+                    <span class="sr-only cYNNnii" xid="span37" __cid="cYNNnii">Previous</span>
+                  </a> 
+                </li>  
+                <li class="next cYNNnii" xid="li10" __cid="cYNNnii"> 
+                  <a href="#" xid="a6" __cid="cYNNnii" class="cYNNnii"> 
+                    <span aria-hidden="true" xid="span38" __cid="cYNNnii" class="cYNNnii">»</span>  
+                    <span class="sr-only cYNNnii" xid="span39" __cid="cYNNnii">Next</span>
+                  </a> 
+                </li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+    <style __cid="cYNNnii" class="cYNNnii">.x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcY3IF7v-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:9px;left:294px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceived:windowDialog1Received" data-config="{&quot;height&quot;:&quot;60%&quot;,&quot;showTitle&quot;:true,&quot;src&quot;:&quot;$model/UI2/NySsInfo/msInfo.w&quot;,&quot;status&quot;:&quot;normal&quot;,&quot;title&quot;:&quot;编辑用户信息&quot;,&quot;width&quot;:&quot;40%&quot;}" __cid="cYNNnii" class="cYNNnii">
+    <result concept="userData" operation="edit" origin="UserData" xid="default9" __cid="cYNNnii" class="cYNNnii"> 
+      <mapping from="fID" to="fID" locator="true" xid="default10" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fAut" to="fAut" xid="default11" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fStatus" to="fStatus" xid="default12" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fUserName" to="fUserName" xid="default13" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fPassWord" to="fPassWord" xid="default14" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fDepartment" to="fDepartment" xid="default15" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fName" to="fName" xid="default16" __cid="cYNNnii" class="cYNNnii"/>  
+      <mapping from="fAcademy" to="fAcademy" xid="default17" __cid="cYNNnii" class="cYNNnii"/>
+    </result>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cYNNnii" __cid="cYNNnii"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cYNNnii" style="display:none;" showTitle="true" __cid="cYNNnii">
+      <xhtml:div class="x-dialog-title cYNNnii" __cid="cYNNnii">
+        <xhtml:button class="close cYNNnii" __cid="cYNNnii">
+          <xhtml:span __cid="cYNNnii" class="cYNNnii">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cYNNnii" __cid="cYNNnii">编辑用户信息</xhtml:div>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cYNNnii" __cid="cYNNnii"/>
+    </xhtml:div>
+  </span>
+</div>

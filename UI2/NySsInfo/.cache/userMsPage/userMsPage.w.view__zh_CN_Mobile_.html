@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cvEnuQ3" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvEnuQ3" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-output.cvEnuQ3 .x-col.cvEnuQ3 .x-row.cvEnuQ3{padding: 0px} .list-group-item.cvEnuQ3{padding: 0px 10px} .list1.cvEnuQ3{padding: 0px auto}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:13px;left:48px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceived:windowDialog1Received" data-config="{&quot;src&quot;:&quot;$model/UI2/NySsInfo/msInfo.w&quot;}" __cid="cvEnuQ3" class="cvEnuQ3"> 
+    <result concept="UserData" operation="edit" origin="UserData" xid="default1" __cid="cvEnuQ3" class="cvEnuQ3"> 
+      <mapping from="fID" to="fID" locator="true" xid="default2" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+      <mapping from="fAut" to="fAut" xid="default3" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+      <mapping from="fUserName" to="fUserName" xid="default4" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+      <mapping from="fPassWord" to="fPassWord" xid="default5" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+      <mapping from="fDepartment" to="fDepartment" xid="default6" __cid="cvEnuQ3" class="cvEnuQ3"/>  
+      <mapping from="fName" to="fName" xid="default13" __cid="cvEnuQ3" class="cvEnuQ3"/> 
+    </result>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cvEnuQ3" __cid="cvEnuQ3"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cvEnuQ3" style="display:none;" __cid="cvEnuQ3">  
+      <div class="x-dialog-title cvEnuQ3" __cid="cvEnuQ3"> 
+        <button class="close cvEnuQ3" __cid="cvEnuQ3"> 
+          <span __cid="cvEnuQ3" class="cvEnuQ3">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cvEnuQ3" __cid="cvEnuQ3"/> 
+      </div>  
+      <div class="x-dialog-body cvEnuQ3" __cid="cvEnuQ3"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcbIvauq-iosstatusbar cvEnuQ3" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cvEnuQ3"> 
+    <div class="x-panel-top cvEnuQ3" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvEnuQ3"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvEnuQ3" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;成员管理&quot;}" __cid="cvEnuQ3"> 
+        <div class="x-titlebar-left cvEnuQ3" __cid="cvEnuQ3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cvEnuQ3" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cvEnuQ3"> 
+            <i class="icon-chevron-left cvEnuQ3" __cid="cvEnuQ3"/>  
+            <span __cid="cvEnuQ3" class="cvEnuQ3"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cvEnuQ3" __cid="cvEnuQ3">成员管理</div>  
+        <div class="x-titlebar-right  cvEnuQ3" __cid="cvEnuQ3"> 
+          <div class="empty cvEnuQ3" __cid="cvEnuQ3"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view  cvEnuQ3" xid="content1" _xid="C7AC588C0BA00001723F173C92FC3B90" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cvEnuQ3"> 
+      <div class="x-scroll cvEnuQ3" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cvEnuQ3"> 
+        <div class="x-content-center x-pull-down container cvEnuQ3" xid="div1" __cid="cvEnuQ3"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cvEnuQ3" xid="i1" __cid="cvEnuQ3"/>  
+          <span class="x-pull-down-label cvEnuQ3" xid="span1" __cid="cvEnuQ3">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cvEnuQ3" xid="div2" __cid="cvEnuQ3"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list x-cards cvEnuQ3" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;UserData&quot;}" __cid="cvEnuQ3"> 
+            <ul class="x-list-template x-min-height list-group hide cvEnuQ3" xid="listTemplateUl1" componentname="$UI/system/components/justep/list/list#listTemplateUl" id="undefined_listTemplateUl1" __cid="cvEnuQ3" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+              <li xid="li1" class="x-min-height list-group-item cvEnuQ3" componentname="li(html)" id="undefined_li1" __cid="cvEnuQ3"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cvEnuQ3" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvEnuQ3"> 
+                  <div class="x-col cvEnuQ3" xid="col4" __cid="cvEnuQ3"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cvEnuQ3" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvEnuQ3"> 
+                      <div component="$model/UI2/system/components/justep/output/output" class="x-output cvEnuQ3" xid="output1" style="width:100%;font-size:medium;color:#000080;" data-bind="component:{ref:ref(&quot;fUserName&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvEnuQ3"/> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cvEnuQ3" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvEnuQ3"> 
+                      <div component="$model/UI2/system/components/justep/output/output" class="x-output cvEnuQ3" xid="output2" style="width:100%;" data-bind="component:{ref:ref(&quot;fDepartment&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvEnuQ3"/> 
+                    </div> 
+                  </div>  
+                  <div class="x-col cvEnuQ3" xid="col5" __cid="cvEnuQ3"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cvEnuQ3" xid="row5" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvEnuQ3"> 
+                      <div component="$model/UI2/system/components/justep/output/output" class="x-output cvEnuQ3" xid="output4" style="width:100%;font-size:medium;color:#000000;" data-bind="component:{ref:ref(&quot;fName&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cvEnuQ3"/> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row cvEnuQ3" xid="row6" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cvEnuQ3"> 
+                      <div component="$model/UI2/system/components/justep/output/output" class="x-output cvEnuQ3" xid="output3" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'},text:val(&quot;fAut&quot;) == &quot;1&quot; ? &quot;工作人员&quot;: &quot;管理员&quot;" __cid="cvEnuQ3"/> 
+                    </div> 
+                  </div>  
+                  <div class="x-col x-col-fixed cvEnuQ3" xid="col6" style="width:auto;" __cid="cvEnuQ3"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-left cvEnuQ3" xid="userDetatil" style="width:auto;vertical-align:baseline;line-height:40px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:userDetatilClick" data-config="{&quot;icon&quot;:&quot;glyphicon glyphicon-chevron-right&quot;,&quot;label&quot;:&quot;userDetatil&quot;}" __cid="cvEnuQ3"> 
+                      <i xid="i3" class="glyphicon glyphicon-chevron-right cvEnuQ3" __cid="cvEnuQ3"/>  
+                      <span xid="span4" __cid="cvEnuQ3" class="cvEnuQ3">userDetatil</span> 
+                    </a>  
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-left cvEnuQ3" xid="DelBtn" style="color:#FF8000;width:auto;vertical-align:baseline;line-height:40px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:DelBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-fileadd&quot;,&quot;label&quot;:&quot;DelBtn&quot;}" __cid="cvEnuQ3"> 
+                      <i xid="i2" class="linear linear-fileadd cvEnuQ3" __cid="cvEnuQ3"/>  
+                      <span xid="span3" __cid="cvEnuQ3" class="cvEnuQ3">DelBtn</span> 
+                    </a> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cvEnuQ3" xid="div3" __cid="cvEnuQ3"> 
+          <span class="x-pull-up-label cvEnuQ3" xid="span2" __cid="cvEnuQ3">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cvEnuQ3" class="cvEnuQ3">.x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcbIvauq-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

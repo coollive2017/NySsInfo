@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cmAN3qe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmAN3qe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onActive:modelActive;onunLoad:modelUnLoad;onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="cmAN3qe" class="cmAN3qe"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:13px;left:109px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/NySsInfo/userHelp.w&quot;}" __cid="cmAN3qe" class="cmAN3qe"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cmAN3qe" __cid="cmAN3qe"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cmAN3qe" style="display:none;" __cid="cmAN3qe">  
+      <div class="x-dialog-title cmAN3qe" __cid="cmAN3qe"> 
+        <button class="close cmAN3qe" __cid="cmAN3qe"> 
+          <span __cid="cmAN3qe" class="cmAN3qe">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cmAN3qe" __cid="cmAN3qe"/> 
+      </div>  
+      <div class="x-dialog-body cmAN3qe" __cid="cmAN3qe"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcMb6jUr-iosstatusbar cmAN3qe" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmAN3qe"> 
+    <div class="x-panel-top cmAN3qe" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmAN3qe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmAN3qe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;评分&quot;}" __cid="cmAN3qe"> 
+        <div class="x-titlebar-left cmAN3qe" __cid="cmAN3qe"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmAN3qe" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmAN3qe"> 
+            <i class="icon-chevron-left cmAN3qe" __cid="cmAN3qe"/>  
+            <span __cid="cmAN3qe" class="cmAN3qe"/> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmAN3qe" xid="helpBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:helpBtnClick" data-config="{&quot;icon&quot;:&quot;icon-help&quot;,&quot;label&quot;:&quot;帮助&quot;}" __cid="cmAN3qe"> 
+            <i xid="i4" class="icon-help cmAN3qe" __cid="cmAN3qe"/>  
+            <span xid="span5" __cid="cmAN3qe" class="cmAN3qe">帮助</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cmAN3qe" __cid="cmAN3qe">评分</div>  
+        <div class="x-titlebar-right  cmAN3qe" __cid="cmAN3qe"> 
+          <div class="empty cmAN3qe" __cid="cmAN3qe"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmAN3qe" xid="OkBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:OkBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-bubble&quot;,&quot;label&quot;:&quot;OkBtn&quot;}" __cid="cmAN3qe"> 
+            <i xid="i1" class="linear linear-bubble cmAN3qe" __cid="cmAN3qe"/>  
+            <span xid="span2" __cid="cmAN3qe" class="cmAN3qe">OkBtn</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view cmAN3qe" xid="content1" _xid="C7B20435D630000191C6C8A01C311758" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmAN3qe"> 
+      <div class="x-scroll cmAN3qe" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cmAN3qe"> 
+        <div class="x-content-center x-pull-down container cmAN3qe" xid="div1" __cid="cmAN3qe"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cmAN3qe" xid="i2" __cid="cmAN3qe"/>  
+          <span class="x-pull-down-label cmAN3qe" xid="span1" __cid="cmAN3qe">下拉刷新...</span> 
+        </div>  
+        <div class="x-scroll-content cmAN3qe" xid="div2" __cid="cmAN3qe"> 
+          <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cmAN3qe" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cmAN3qe"> 
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="DromLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fDormID&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="DromID" style="font-family:微软雅黑;" data-bind="component:{ref:$model.checkData.ref(&quot;fDormID&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入宿舍楼号例：3#207&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit16" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="label4" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckillFlag&quot;)"/>  
+              <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cmAN3qe" xid="illFlagselect" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckillFlag&quot;),name:'$model/UI2/system/components/justep/select/select'},options:itemdata.datas,optionsValue:'select',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element),event:{load:$model._callModelFn.bind($model, 'illFlagselectLoad')}" data-events="onChange:select1Change" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEditillg" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'},visible:0" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="illglabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckIllegal&quot;)"/>  
+              <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit cmAN3qe" xid="illegalSelect" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckIllegal&quot;),name:'$model/UI2/system/components/justep/select/select'},options:illegalData.datas,optionsValue:'content',optionsAfterRender2:$model.__justep__.selectOptionsAfterRender.bind($model,$element),optionsBeforeRender:$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="SZLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckSZ&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="SZinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckSZ&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;20&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-20 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="WSlabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckWS&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="WSinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckWS&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;20&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-20 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit12" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="CSlabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckCS&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="CSinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckCS&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;20&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-20 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="HClabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckHC&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="HCinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckHC&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;10&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-10 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="TFlabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckTF&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="TFinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckTF&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;10.0&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-10 分&quot;,&quot;valueUpdateMode&quot;:&quot;input&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit9" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="YClabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckYC&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="YCinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckYC&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;10&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-10 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cmAN3qe" xid="labelEdit11" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="WMlabel" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckWM&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="WMinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckWM&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;10&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;0-10 分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="ScoreLab" dir="ltr" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckScore&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="Score" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckScore&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;max&quot;:&quot;100&quot;,&quot;maxLength&quot;:&quot;4&quot;,&quot;min&quot;:&quot;0&quot;,&quot;placeHolder&quot;:&quot;请输入该宿舍最终得分&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit13" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="Gradeabel" dir="ltr" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckGrade&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="Gradeinput" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckGrade&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;maxLength&quot;:&quot;2&quot;,&quot;placeHolder&quot;:&quot;请输入该宿舍评分等级&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="CheckDateLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckDate&quot;)"/>  
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="CheckDate" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckDate&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;DateTime&quot;,&quot;placeHolder&quot;:&quot;此项不需要手动输入&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit8" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+              <label class="x-label cmAN3qe" xid="Remark" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckRemark&quot;)"/>  
+              <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cmAN3qe" xid="RemarkInput" style="height:69px;" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckRemark&quot;),name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;检查小结&quot;,&quot;valueUpdateMode&quot;:&quot;keyup&quot;}" __cid="cmAN3qe"/> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row cmAN3qe" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cmAN3qe"> 
+              <div class="x-col cmAN3qe" xid="col2" style="text-align:center;" __cid="cmAN3qe"> 
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary cmAN3qe" xid="CheckBtn" style="width:50%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:CheckBtnClick" data-config="{&quot;label&quot;:&quot;生成评分结果&quot;}" __cid="cmAN3qe"> 
+                  <i xid="i3" __cid="cmAN3qe" class="cmAN3qe"/>  
+                  <span xid="span4" __cid="cmAN3qe" class="cmAN3qe">生成评分结果</span> 
+                </a> 
+              </div> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cmAN3qe" xid="div3" __cid="cmAN3qe"> 
+          <span class="x-pull-up-label cmAN3qe" xid="span3" __cid="cmAN3qe">加载更多...</span> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cmAN3qe" class="cmAN3qe">.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

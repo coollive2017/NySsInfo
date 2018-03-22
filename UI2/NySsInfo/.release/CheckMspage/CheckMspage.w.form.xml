@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cZnuA7r" component="$model/UI2/system/components/justep/window/window" design="device:pc" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cZnuA7r" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/pagerBar/pagerBar,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/bootstrap/pagination/pagination,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/toolBar/toolBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/grid/grid,$model/UI2/system/components/bootstrap/inputGroup/inputGroup,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cZnuA7r" class="cZnuA7r"/>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="infoWindowDialog" style="top:295px;left:27px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceived:infoWindowDialogReceived" data-config="{&quot;height&quot;:&quot;60%&quot;,&quot;showTitle&quot;:true,&quot;src&quot;:&quot;$model/UI2/NySsInfo/detail.w&quot;,&quot;status&quot;:&quot;normal&quot;,&quot;title&quot;:&quot;编辑评分信息&quot;,&quot;width&quot;:&quot;40%&quot;}" __cid="cZnuA7r" class="cZnuA7r">
+    <result concept="checkData" operation="edit" origin="checkData" xid="default73" __cid="cZnuA7r" class="cZnuA7r"> 
+      <mapping from="fID" to="fID" locator="true" xid="default74" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fDormID" to="fDormID" xid="default75" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckDate" to="fCheckDate" xid="default76" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckSZ" to="fCheckSZ" xid="default77" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckWS" to="fCheckWS" xid="default78" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckCS" to="fCheckCS" xid="default79" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckHC" to="fCheckHC" xid="default80" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckTF" to="fCheckTF" xid="default81" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckYC" to="fCheckYC" xid="default82" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckWM" to="fCheckWM" xid="default83" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckScore" to="fCheckScore" xid="default84" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckGrade" to="fCheckGrade" xid="default85" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckillFlag" to="fCheckillFlag" xid="default86" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckIllegal" to="fCheckIllegal" xid="default87" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckWorker" to="fCheckWorker" xid="default88" __cid="cZnuA7r" class="cZnuA7r"/>  
+      <mapping from="fCheckRemark" to="fCheckRemark" xid="default89" __cid="cZnuA7r" class="cZnuA7r"/>
+    </result>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cZnuA7r" __cid="cZnuA7r"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cZnuA7r" style="display:none;" showTitle="true" __cid="cZnuA7r">
+      <xhtml:div class="x-dialog-title cZnuA7r" __cid="cZnuA7r">
+        <xhtml:button class="close cZnuA7r" __cid="cZnuA7r">
+          <xhtml:span __cid="cZnuA7r" class="cZnuA7r">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cZnuA7r" __cid="cZnuA7r">编辑评分信息</xhtml:div>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cZnuA7r" __cid="cZnuA7r"/>
+    </xhtml:div>
+  </span>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcqABRNv-iosstatusbar cZnuA7r" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZnuA7r"> 
+    <div class="x-panel-top cZnuA7r" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:50}" __cid="cZnuA7r">
+      <div component="$model/UI2/system/components/justep/toolBar/toolBar" class="x-toolbar form-inline x-toolbar-spliter cZnuA7r" xid="toolBar3" data-bind="component:{name:'$model/UI2/system/components/justep/toolBar/toolBar'}" __cid="cZnuA7r"> 
+        <span xid="span4" __cid="cZnuA7r" class="cZnuA7r">----宿舍评分管理----</span>
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cZnuA7r" xid="edit" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:editClick" data-config="{&quot;icon&quot;:&quot;icon-edit&quot;,&quot;label&quot;:&quot;编辑&quot;}" __cid="cZnuA7r"> 
+          <i xid="i10" class="icon-edit cZnuA7r" __cid="cZnuA7r"/>  
+          <span xid="span33" __cid="cZnuA7r" class="cZnuA7r">编辑</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cZnuA7r" xid="delete" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:deleteClick" data-config="{&quot;icon&quot;:&quot;icon-android-remove&quot;,&quot;label&quot;:&quot;删除&quot;}" __cid="cZnuA7r"> 
+          <i xid="i12" class="icon-android-remove cZnuA7r" __cid="cZnuA7r"/>  
+          <span xid="span40" __cid="cZnuA7r" class="cZnuA7r">删除</span>
+        </a>
+        <div class="input-group pull-right cZnuA7r" component="$model/UI2/system/components/bootstrap/inputGroup/inputGroup" xid="inputGroup4" data-bind="component:{name:'$model/UI2/system/components/bootstrap/inputGroup/inputGroup'}" __cid="cZnuA7r"> 
+          <input type="text" class="form-control cZnuA7r" component="$model/UI2/system/components/justep/input/input" xid="selectCondition" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;String&quot;,&quot;placeHolder&quot;:&quot;请输入&quot;}" __cid="cZnuA7r"/>  
+          <div class="input-group-btn cZnuA7r" xid="layoutWizard2" __cid="cZnuA7r"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-only-icon cZnuA7r" xid="select" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:selectClick" data-config="{&quot;icon&quot;:&quot;icon-android-search&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cZnuA7r"> 
+              <i xid="i6" class="icon-android-search cZnuA7r" __cid="cZnuA7r"/>  
+              <span xid="span25" __cid="cZnuA7r" class="cZnuA7r"/>
+            </a> 
+          </div> 
+        </div>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control cZnuA7r" xid="dataInput" style="margin-left:60px;width:134px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;Date&quot;}" __cid="cZnuA7r"/>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cZnuA7r" xid="filterBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:filterBtnClick" data-config="{&quot;label&quot;:&quot;筛选&quot;}" __cid="cZnuA7r"> 
+          <i xid="i1" __cid="cZnuA7r" class="cZnuA7r"/>  
+          <span xid="span1" __cid="cZnuA7r" class="cZnuA7r">筛选</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cZnuA7r" xid="outExcelBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:outExcelBtnClick" data-config="{&quot;label&quot;:&quot;生成Excel文件&quot;}" __cid="cZnuA7r"> 
+          <i xid="i2" __cid="cZnuA7r" class="cZnuA7r"/>  
+          <span xid="span2" __cid="cZnuA7r" class="cZnuA7r">生成Excel文件</span>
+        </a> 
+      </div>
+    </div>  
+    <div class="x-panel-content cZnuA7r" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZnuA7r">
+      <xhtml:table xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/grid/grid" hiddenCaptionbar="true" altRows="true" class="x-grid-no-bordered cZnuA7r" xid="checkgrid" data="checkData" useFilterBar="false" showRowNumber="true" rowAttr="val(&quot;fCheckGrade&quot;)=='不合格' ? {style:'background:#FFCCCC;'}:{style:''}" multiboxonly="false" moveColumn="false" multiselect="true" data-config="{&quot;altRows&quot;:true,&quot;colModel&quot;:[{&quot;name&quot;:&quot;fDormID&quot;,&quot;width&quot;:&quot;80&quot;,&quot;xid&quot;:&quot;column31&quot;},{&quot;name&quot;:&quot;fCheckDate&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column32&quot;},{&quot;name&quot;:&quot;fCheckWorker&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column44&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckSZ&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column33&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckWS&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column34&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckCS&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column35&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckHC&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column36&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckTF&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column37&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckYC&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column38&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckWM&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column39&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckScore&quot;,&quot;width&quot;:&quot;100&quot;,&quot;xid&quot;:&quot;column40&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckGrade&quot;,&quot;width&quot;:&quot;70&quot;,&quot;xid&quot;:&quot;column41&quot;},{&quot;align&quot;:&quot;center&quot;,&quot;name&quot;:&quot;fCheckillFlag&quot;,&quot;width&quot;:&quot;70&quot;,&quot;xid&quot;:&quot;column42&quot;},{&quot;name&quot;:&quot;fCheckIllegal&quot;,&quot;width&quot;:&quot;200&quot;,&quot;xid&quot;:&quot;column43&quot;},{&quot;name&quot;:&quot;fCheckRemark&quot;,&quot;width&quot;:&quot;200&quot;,&quot;xid&quot;:&quot;column45&quot;}],&quot;data&quot;:&quot;checkData&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;hiddenCaptionbar&quot;:true,&quot;moveColumn&quot;:false,&quot;multiboxonly&quot;:false,&quot;multiselect&quot;:true,&quot;rowAttr&quot;:&quot;val(\&quot;fCheckGrade\&quot;)=='不合格' ? {style:'background:#FFCCCC;'}:{style:''}&quot;,&quot;rownumbers&quot;:true,&quot;useFilterBar&quot;:false,&quot;width&quot;:&quot;100%&quot;}" data-bind="component:{name:'$model/UI2/system/components/justep/grid/grid'}" data-events="onRowDblClick:checkgridRowDblClick" __cid="cZnuA7r"/> 
+    </div>  
+    <div class="x-panel-bottom cZnuA7r" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZnuA7r"> 
+      <div component="$model/UI2/system/components/justep/pagerBar/pagerBar" class="x-pagerbar container-fluid cZnuA7r" xid="pagerBar3" data-bind="component:{name:'$model/UI2/system/components/justep/pagerBar/pagerBar'}" data-config="{&quot;data&quot;:&quot;checkData&quot;}" __cid="cZnuA7r"> 
+        <div class="row cZnuA7r" xid="div19" __cid="cZnuA7r"> 
+          <div class="col-sm-3 cZnuA7r" xid="div20" __cid="cZnuA7r"> 
+            <div class="x-pagerbar-length cZnuA7r" xid="div21" __cid="cZnuA7r"> 
+              <label component="$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect" class="x-pagerlimitselect cZnuA7r" xid="pagerLimitSelect3" data-bind="component:{name:'$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect'}" data-config="{&quot;data&quot;:&quot;checkData&quot;,&quot;defaultValue&quot;:10}" __cid="cZnuA7r"> 
+                <span xid="span34" __cid="cZnuA7r" class="cZnuA7r">显示</span>  
+                <select component="$model/UI2/system/components/justep/select/select" class="form-control input-sm cZnuA7r" xid="select5" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="cZnuA7r"> 
+                  <option value="10" xid="default26" __cid="cZnuA7r" class="cZnuA7r">10</option>  
+                  <option value="20" xid="default27" __cid="cZnuA7r" class="cZnuA7r">20</option>  
+                  <option value="50" xid="default28" __cid="cZnuA7r" class="cZnuA7r">50</option>  
+                  <option value="100" xid="default29" __cid="cZnuA7r" class="cZnuA7r">100</option>  
+                  <option value="5000" xid="default30" __cid="cZnuA7r" class="cZnuA7r">5000</option>
+                </select>  
+                <span xid="span35" __cid="cZnuA7r" class="cZnuA7r">条</span>
+              </label> 
+            </div> 
+          </div>  
+          <div class="col-sm-3 cZnuA7r" xid="div22" __cid="cZnuA7r"> 
+            <div class="x-pagerbar-info cZnuA7r" xid="div23" __cid="cZnuA7r">当前显示0条，共0条</div>
+          </div>  
+          <div class="col-sm-6 cZnuA7r" xid="div24" __cid="cZnuA7r"> 
+            <div class="x-pagerbar-pagination cZnuA7r" xid="div25" __cid="cZnuA7r"> 
+              <ul class="pagination cZnuA7r" component="$model/UI2/system/components/bootstrap/pagination/pagination" xid="pagination3" data-bind="component:{name:'$model/UI2/system/components/bootstrap/pagination/pagination'}" data-config="{&quot;data&quot;:&quot;checkData&quot;}" __cid="cZnuA7r"> 
+                <li class="prev cZnuA7r" xid="li2" __cid="cZnuA7r"> 
+                  <a href="#" xid="a5" __cid="cZnuA7r" class="cZnuA7r"> 
+                    <span aria-hidden="true" xid="span36" __cid="cZnuA7r" class="cZnuA7r">«</span>  
+                    <span class="sr-only cZnuA7r" xid="span37" __cid="cZnuA7r">Previous</span>
+                  </a> 
+                </li>  
+                <li class="next cZnuA7r" xid="li10" __cid="cZnuA7r"> 
+                  <a href="#" xid="a6" __cid="cZnuA7r" class="cZnuA7r"> 
+                    <span aria-hidden="true" xid="span38" __cid="cZnuA7r" class="cZnuA7r">»</span>  
+                    <span class="sr-only cZnuA7r" xid="span39" __cid="cZnuA7r">Next</span>
+                  </a> 
+                </li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+    <style __cid="cZnuA7r" class="cZnuA7r">.x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-top {height: 50px;}.x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-content { top: 50px;bottom: nullpx;}.x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-top {height: 70px;}.iosstatusbar .x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-content { top: 70px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-top {height: 50px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqABRNv-iosstatusbar &gt;.x-panel-content {top: 50px;}</style>
+  </div>
+</div>

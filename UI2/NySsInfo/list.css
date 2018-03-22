@@ -1,0 +1,51 @@
+.x-col{
+	padding: 0px;
+}
+.x-row{
+	padding: 2px 4px;
+}
+.x-output{
+	padding: 1px;
+}
+.list-group-item{
+	padding: 0px 10px;
+}
+
+/*不合格样式 */
+.bhg{
+	color:brown;
+	font-size:18px;
+}
+/*合格样式 */
+.hg{
+	color:orange;
+	font-size:18px;
+}
+/*良好样式  */
+.lh{
+	color:blue;
+	font-size:18px;
+}
+/*优秀样式  */
+.yx{
+	color:green;
+	font-size:18px;
+}
+/* .select_c{
+                //清除select的边框样式
+                border: none;
+                //清除select聚焦时候的边框颜色
+                outline: none;
+                //将select的宽高等于div的宽高
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                //隐藏select的下拉图标
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                //通过padding-left的值让文字居中
+                padding-left: 60px;
+}
+ */
+

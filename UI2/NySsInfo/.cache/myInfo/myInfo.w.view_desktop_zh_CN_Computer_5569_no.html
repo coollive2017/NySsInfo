@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cM7ZBru" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cM7ZBru" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cM7ZBru" class="cM7ZBru"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcqyieIv-iosstatusbar cM7ZBru" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cM7ZBru"> 
+    <div class="x-panel-top cM7ZBru" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cM7ZBru"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cM7ZBru" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的信息&quot;}" __cid="cM7ZBru"> 
+        <div class="x-titlebar-left cM7ZBru" __cid="cM7ZBru"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cM7ZBru" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cM7ZBru"> 
+            <i class="icon-chevron-left cM7ZBru" __cid="cM7ZBru"/>  
+            <span __cid="cM7ZBru" class="cM7ZBru"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cM7ZBru" __cid="cM7ZBru">我的信息</div>  
+        <div class="x-titlebar-right  cM7ZBru" __cid="cM7ZBru"> 
+          <div class="empty cM7ZBru" __cid="cM7ZBru"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cM7ZBru" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cM7ZBru"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cM7ZBru" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cM7ZBru"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cM7ZBru" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cM7ZBru"> 
+          <label class="x-label cM7ZBru" xid="label6" __cid="cM7ZBru" data-bind="text:$model.UserData.label(&quot;fUserName&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cM7ZBru" xid="input1" data-bind="component:{ref:$model.UserData.ref(&quot;fUserName&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="cM7ZBru"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cM7ZBru" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cM7ZBru"> 
+          <label class="x-label cM7ZBru" xid="label7" __cid="cM7ZBru" data-bind="text:$model.UserData.label(&quot;fName&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cM7ZBru" xid="input2" data-bind="component:{ref:$model.UserData.ref(&quot;fName&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="cM7ZBru"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cM7ZBru" xid="labelEdit8" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cM7ZBru"> 
+          <label class="x-label cM7ZBru" xid="label8" __cid="cM7ZBru" data-bind="text:$model.UserData.label(&quot;fAut&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cM7ZBru" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;disabled&quot;:true}" __cid="cM7ZBru"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cM7ZBru" xid="labelEdit9" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cM7ZBru"> 
+          <label class="x-label cM7ZBru" xid="label9" __cid="cM7ZBru" data-bind="text:$model.UserData.label(&quot;fDepartment&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cM7ZBru" xid="input4" data-bind="component:{ref:$model.UserData.ref(&quot;fDepartment&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;readonly&quot;:true}" __cid="cM7ZBru"/> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cM7ZBru" class="cM7ZBru">.x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqyieIv-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" xid="window" design="device:pc;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ca677Fb" class="ca677Fb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/pagerBar/pagerBar,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/pagination/pagination,$model/UI2/system/components/justep/smartFilter/smartFilter,$model/UI2/system/components/justep/toolBar/toolBar,$model/UI2/system/components/justep/button/checkbox,$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ca677Fb" class="ca677Fb"/>  
+  <div xmlns="" xid="view" __cid="ca677Fb" class="ca677Fb"> 
+    <div component="$model/UI2/system/components/justep/toolBar/toolBar" class="x-toolbar x-toolbar-spliter form-inline ca677Fb" xid="bar" data-bind="component:{name:'$model/UI2/system/components/justep/toolBar/toolBar'}" __cid="ca677Fb"> 
+      <div component="$model/UI2/system/components/justep/smartFilter/smartFilter" xid="smartFilter1" filterData="mainData" filterCols="" class="pull-right ca677Fb" __cid="ca677Fb"> 
+        <input type="text" class="form-control ca677Fb" placeholder="搜索" data-bind="valueUpdate: ['input', 'afterkeydown']" xid="input1" __cid="ca677Fb"/> 
+      </div>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left ca677Fb" xid="newBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;mainData.new&quot;, args:{index:'js:0'}}" data-config="{&quot;icon&quot;:&quot;icon-plus&quot;,&quot;label&quot;:&quot; 新建&quot;}" __cid="ca677Fb"> 
+        <i class="icon-plus ca677Fb" __cid="ca677Fb"/>  
+        <span __cid="ca677Fb" class="ca677Fb">新建</span> 
+      </a>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left ca677Fb" xid="saveBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;mainData.save&quot;}" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="ca677Fb"> 
+        <i xid="i3" __cid="ca677Fb" class="ca677Fb"/>  
+        <span xid="label7" __cid="ca677Fb" class="ca677Fb">保存</span> 
+      </a>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left ca677Fb" xid="deleteBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:deleteBtnClick" data-config="{&quot;label&quot;:&quot;删除&quot;}" __cid="ca677Fb"> 
+        <i xid="i4" __cid="ca677Fb" class="ca677Fb"/>  
+        <span xid="span7" __cid="ca677Fb" class="ca677Fb">删除</span> 
+      </a>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left ca677Fb" xid="refreshBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;mainData.refresh&quot;}" data-config="{&quot;label&quot;:&quot;刷新&quot;}" __cid="ca677Fb"> 
+        <i xid="i2" __cid="ca677Fb" class="ca677Fb"/>  
+        <span xid="span2" __cid="ca677Fb" class="ca677Fb">刷新</span> 
+      </a>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left ca677Fb" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:cancelEditClick" data-config="{&quot;label&quot;:&quot;全部取消&quot;}" __cid="ca677Fb"> 
+        <i xid="i1" __cid="ca677Fb" class="ca677Fb"/>  
+        <span xid="span8" __cid="ca677Fb" class="ca677Fb">全部取消</span> 
+      </a> 
+    </div>  
+    <div xid="mainList" class="x-list ca677Fb" component="$model/UI2/system/components/justep/list/list" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;mainData&quot;,&quot;limit&quot;:-1}" __cid="ca677Fb"> 
+      <div class="x-list-head ca677Fb" __cid="ca677Fb"/>  
+      <ul class="x-list-template hide ca677Fb" __cid="ca677Fb" data-bind="foreach:{data:$model.foreach_mainList($element),afterRender:$model.foreach_afterRender_mainList.bind($model,$element)}"> 
+        <li __cid="ca677Fb" class="ca677Fb"> 
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row x-row-center ca677Fb" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ca677Fb"> 
+            <div class="x-col ca677Fb" style="text-align: left;" __cid="ca677Fb"> 
+              <span component="$model/UI2/system/components/justep/button/checkbox" class="x-checkbox ca677Fb" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{ref:ref('calcCheckBox'),name:'$model/UI2/system/components/justep/button/checkbox'}" __cid="ca677Fb"> 
+                <input xmlns:xhtml="http://www.w3.org/1999/xhtml" type="checkbox" __cid="ca677Fb" class="ca677Fb"></input>  
+                <label xmlns:xhtml="http://www.w3.org/1999/xhtml" __cid="ca677Fb" class="ca677Fb"></label> 
+              </span> 
+            </div>  
+            <div component="$model/UI2/system/components/justep/row/row" class="x-col x-col-90 ca677Fb" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ca677Fb"> 
+              <div class="x-row ca677Fb" component="$model/UI2/system/components/justep/row/row" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ca677Fb"> 
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fID'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fDormID'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckDate'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckSZ'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckWS'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckCS'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckHC'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckTF'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckYC'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckWM'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckScore'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckGrade'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckillFlag'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckIllegal'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckWorker'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div>  
+                <div class="x-col ca677Fb" __cid="ca677Fb"> 
+                  <input component="$model/UI2/system/components/justep/input/input" class="form-control ca677Fb" xid="input2" data-bind="component:{ref:ref('fCheckRemark'),name:'$model/UI2/system/components/justep/input/input'}" __cid="ca677Fb"/> 
+                </div> 
+              </div> 
+            </div>  
+            <div class="x-col font-gray ca677Fb" style="text-align: right" __cid="ca677Fb"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-only-icon ca677Fb" xid="editBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-right&quot;,&quot;label&quot;:&quot;&quot;}" __cid="ca677Fb"> 
+                <i class="icon-chevron-right ca677Fb" __cid="ca677Fb"/>  
+                <span __cid="ca677Fb" class="ca677Fb"/> 
+              </a> 
+            </div> 
+          </div> 
+        </li> 
+      </ul> 
+    </div> 
+  </div>  
+  <div xmlns="" component="$model/UI2/system/components/justep/pagerBar/pagerBar" class="x-pagerbar container-fluid ca677Fb" xid="pagerBar" data-bind="component:{name:'$model/UI2/system/components/justep/pagerBar/pagerBar'}" data-config="{&quot;data&quot;:&quot;mainData&quot;}" __cid="ca677Fb"> 
+    <div class="row ca677Fb" xid="div1" __cid="ca677Fb"> 
+      <div class="col-sm-3 ca677Fb" xid="div2" __cid="ca677Fb"> 
+        <div class="x-pagerbar-length ca677Fb" xid="div3" __cid="ca677Fb"> 
+          <label component="$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect" class="x-pagerlimitselect ca677Fb" xid="pagerLimitSelect1" data-bind="component:{name:'$model/UI2/system/components/justep/pagerLimitSelect/pagerLimitSelect'}" data-config="{&quot;data&quot;:&quot;mainData&quot;,&quot;defaultValue&quot;:10}" __cid="ca677Fb"> 
+            <span xid="span1" __cid="ca677Fb" class="ca677Fb">显示</span>  
+            <select component="$model/UI2/system/components/justep/select/select" class="form-control input-sm ca677Fb" xid="select1" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="ca677Fb"> 
+              <option value="10" xid="default2" __cid="ca677Fb" class="ca677Fb">10</option>  
+              <option value="20" xid="default3" __cid="ca677Fb" class="ca677Fb">20</option>  
+              <option value="50" xid="default4" __cid="ca677Fb" class="ca677Fb">50</option>  
+              <option value="100" xid="default5" __cid="ca677Fb" class="ca677Fb">100</option> 
+            </select>  
+            <span xid="span3" __cid="ca677Fb" class="ca677Fb">条</span> 
+          </label> 
+        </div> 
+      </div>  
+      <div class="col-sm-3 ca677Fb" xid="div4" __cid="ca677Fb"> 
+        <div class="x-pagerbar-info ca677Fb" xid="div5" __cid="ca677Fb">当前显示1-10条，共16条</div> 
+      </div>  
+      <div class="col-sm-6 ca677Fb" xid="div6" __cid="ca677Fb"> 
+        <div class="x-pagerbar-pagination ca677Fb" xid="div7" __cid="ca677Fb"> 
+          <ul class="pagination ca677Fb" component="$model/UI2/system/components/bootstrap/pagination/pagination" xid="pagination1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/pagination/pagination'}" data-config="{&quot;data&quot;:&quot;mainData&quot;}" __cid="ca677Fb"> 
+            <li class="prev ca677Fb" xid="li1" __cid="ca677Fb"> 
+              <a href="#" xid="a1" __cid="ca677Fb" class="ca677Fb"> 
+                <span aria-hidden="true" xid="span4" __cid="ca677Fb" class="ca677Fb">«</span>  
+                <span class="sr-only ca677Fb" xid="span5" __cid="ca677Fb">Previous</span> 
+              </a> 
+            </li>  
+            <li class="next ca677Fb" xid="li2" __cid="ca677Fb"> 
+              <a href="#" xid="a2" __cid="ca677Fb" class="ca677Fb"> 
+                <span aria-hidden="true" xid="span6" __cid="ca677Fb" class="ca677Fb">»</span>  
+                <span class="sr-only ca677Fb" xid="span9" __cid="ca677Fb">Next</span> 
+              </a> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</div>

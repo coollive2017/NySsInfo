@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c3MRnUj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3MRnUj" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c3MRnUj" class="c3MRnUj"></div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" style="top:9px;left:90px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;type&quot;:&quot;OK&quot;}" __cid="c3MRnUj" class="c3MRnUj">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay c3MRnUj" __cid="c3MRnUj"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal c3MRnUj" __cid="c3MRnUj">
+      <xhtml:div class="x-modal-inner c3MRnUj" __cid="c3MRnUj">
+        <xhtml:div class="x-modal-title c3MRnUj" __cid="c3MRnUj"></xhtml:div>
+        <xhtml:div class="x-modal-text c3MRnUj" __cid="c3MRnUj"></xhtml:div>
+        <xhtml:input class="x-modal-prompt-input c3MRnUj" type="text" __cid="c3MRnUj"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons c3MRnUj" __cid="c3MRnUj">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK c3MRnUj" value="ok" __cid="c3MRnUj">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes c3MRnUj" value="yes" __cid="c3MRnUj">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No c3MRnUj" value="no" __cid="c3MRnUj">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel c3MRnUj" value="cancel" __cid="c3MRnUj">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcYraqym-iosstatusbar c3MRnUj" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3MRnUj"> 
+    <div class="x-panel-top c3MRnUj" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3MRnUj"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c3MRnUj" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;用户注册&quot;}" __cid="c3MRnUj"> 
+        <div class="x-titlebar-left c3MRnUj" __cid="c3MRnUj"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MRnUj" xid="bkbutton" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;linear linear-volumehigh&quot;,&quot;label&quot;:&quot;返回&quot;}" __cid="c3MRnUj"> 
+            <i xid="i3" class="linear linear-volumehigh c3MRnUj" __cid="c3MRnUj"/>  
+            <span xid="span2" __cid="c3MRnUj" class="c3MRnUj">返回</span>
+          </a>
+        </div>  
+        <div class="x-titlebar-title c3MRnUj" __cid="c3MRnUj">用户注册</div>  
+        <div class="x-titlebar-right  c3MRnUj" __cid="c3MRnUj">
+          <div class="empty c3MRnUj" __cid="c3MRnUj"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c3MRnUj" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3MRnUj">
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group c3MRnUj" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="c3MRnUj"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="username" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="label1" bind-text="$model.userData.label(&quot;fUserName&quot;)" __cid="c3MRnUj"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c3MRnUj" xid="usernameinput" style="font-family:微软雅黑;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;maxLength&quot;:&quot;11&quot;,&quot;placeHolder&quot;:&quot;请输入你的学号&quot;}" __cid="c3MRnUj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="password" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="label2" bind-text="$model.userData.label(&quot;fPassWord&quot;)" __cid="c3MRnUj"/>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit c3MRnUj" xid="password1" style="font-family:微软雅黑;" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="c3MRnUj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="agpassword" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="label3" __cid="c3MRnUj">确认密码</label>  
+          <input component="$model/UI2/system/components/justep/input/password" class="form-control x-edit c3MRnUj" xid="password2" style="font-family:微软雅黑;" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请再输入一次密码&quot;}" __cid="c3MRnUj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="department" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="label5" bind-text="$model.userData.label(&quot;fDepartment&quot;)" __cid="c3MRnUj"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c3MRnUj" xid="departmentinput" style="font-family:微软雅黑;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入你所在的部门&quot;}" __cid="c3MRnUj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="name" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="label6" bind-text="$model.userData.label(&quot;fName&quot;)" __cid="c3MRnUj"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c3MRnUj" xid="nameinput" style="font-family:微软雅黑;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入您的姓名&quot;}" __cid="c3MRnUj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c3MRnUj" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c3MRnUj"> 
+          <label class="x-label c3MRnUj" xid="Academylabel" bind-text="$model.userData.label(&quot;fAcademy&quot;)" __cid="c3MRnUj"/>  
+          <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit c3MRnUj" xid="Academyselect" bind-options="AcademyData.datas" bind-optionsValue="'fAcademy'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{ref:$model.AcademyData.ref(&quot;fAcademy&quot;),name:'$model/UI2/system/components/justep/select/select'}" data-config="{&quot;optionsAutoLoad&quot;:true}" __cid="c3MRnUj"/>
+        </div>
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c3MRnUj" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c3MRnUj"> 
+        <div class="x-col c3MRnUj" xid="col5" __cid="c3MRnUj">
+          <p xid="p1" style="color:#FF8000;text-align:center;" __cid="c3MRnUj" class="c3MRnUj">注意：非工作人员不得注册，发现违反者严重处理</p>
+        </div> 
+      </div>
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c3MRnUj" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c3MRnUj"> 
+        <div class="x-col c3MRnUj" xid="col1" style="text-align:right;" __cid="c3MRnUj">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-primary c3MRnUj" xid="chonzhi" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;userData.refresh&quot;}" data-config="{&quot;icon&quot;:&quot;linear linear-redo&quot;,&quot;label&quot;:&quot;重置&quot;}" __cid="c3MRnUj"> 
+            <i xid="i1" class="linear linear-redo c3MRnUj" __cid="c3MRnUj"/>  
+            <span xid="span1" __cid="c3MRnUj" class="c3MRnUj">重置</span>
+          </a>
+        </div>  
+        <div class="x-col c3MRnUj" xid="col3" __cid="c3MRnUj">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-success c3MRnUj" xid="regBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:regBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-bubble&quot;,&quot;label&quot;:&quot;注册&quot;}" __cid="c3MRnUj"> 
+            <i xid="i2" class="linear linear-bubble c3MRnUj" __cid="c3MRnUj"/>  
+            <span xid="span7" __cid="c3MRnUj" class="c3MRnUj">注册</span>
+          </a>
+        </div>
+      </div> 
+    </div>  
+    <style __cid="c3MRnUj" class="c3MRnUj">.x-panel.pcYraqym-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcYraqym-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcYraqym-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYraqym-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYraqym-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcYraqym-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYraqym-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYraqym-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYraqym-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

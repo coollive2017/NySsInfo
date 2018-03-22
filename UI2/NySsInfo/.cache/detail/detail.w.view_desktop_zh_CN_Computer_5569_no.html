@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cmAN3qe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmAN3qe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="cmAN3qe" class="cmAN3qe"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcMb6jUr-iosstatusbar cmAN3qe" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmAN3qe"> 
+    <div class="x-panel-top cmAN3qe" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmAN3qe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmAN3qe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;登分&quot;}" __cid="cmAN3qe"> 
+        <div class="x-titlebar-left cmAN3qe" __cid="cmAN3qe"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmAN3qe" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmAN3qe"> 
+            <i class="icon-chevron-left cmAN3qe" __cid="cmAN3qe"/>  
+            <span __cid="cmAN3qe" class="cmAN3qe"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cmAN3qe" __cid="cmAN3qe">登分</div>  
+        <div class="x-titlebar-right  cmAN3qe" __cid="cmAN3qe"> 
+          <div class="empty cmAN3qe" __cid="cmAN3qe"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmAN3qe" xid="OkBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:OkBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-bubble&quot;,&quot;label&quot;:&quot;OkBtn&quot;}" __cid="cmAN3qe"> 
+            <i xid="i1" class="linear linear-bubble cmAN3qe" __cid="cmAN3qe"/>  
+            <span xid="span2" __cid="cmAN3qe" class="cmAN3qe">OkBtn</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cmAN3qe" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmAN3qe"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cmAN3qe" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cmAN3qe"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+          <label class="x-label cmAN3qe" xid="HouseLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fHouseID&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="House" data-bind="component:{ref:$model.checkData.ref(&quot;fHouseID&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入宿舍楼号&quot;}" __cid="cmAN3qe"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+          <label class="x-label cmAN3qe" xid="RoomLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fRoomID&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="Room" data-bind="component:{ref:$model.checkData.ref(&quot;fRoomID&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入宿舍号 例如：207&quot;}" __cid="cmAN3qe"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+          <label class="x-label cmAN3qe" xid="CheckDateLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckDate&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="CheckDate" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckDate&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;dataType&quot;:&quot;DateTime&quot;,&quot;placeHolder&quot;:&quot;此项不需要手动输入&quot;}" __cid="cmAN3qe"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+          <label class="x-label cmAN3qe" xid="ScoreLab" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fCheckScore&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cmAN3qe" xid="Score" data-bind="component:{ref:$model.checkData.ref(&quot;fCheckScore&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入该宿舍最终得分&quot;}" __cid="cmAN3qe"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cmAN3qe" xid="labelEdit8" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmAN3qe"> 
+          <label class="x-label cmAN3qe" xid="Reasion" __cid="cmAN3qe" data-bind="text:$model.checkData.label(&quot;fDescription&quot;)"/>  
+          <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control x-edit cmAN3qe" xid="Description" style="height:163px;" data-bind="component:{ref:$model.checkData.ref(&quot;fDescription&quot;),name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;请输入扣分原因&quot;,&quot;valueUpdateMode&quot;:&quot;keyup&quot;}" __cid="cmAN3qe"/> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cmAN3qe" class="cmAN3qe">.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMb6jUr-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

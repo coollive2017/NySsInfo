@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cRr6Bf2" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cRr6Bf2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cRr6Bf2" class="cRr6Bf2"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pczqAryq-iosstatusbar cRr6Bf2" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cRr6Bf2"> 
+    <div class="x-panel-top cRr6Bf2" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRr6Bf2"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRr6Bf2" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;用户信息&quot;}" __cid="cRr6Bf2"> 
+        <div class="x-titlebar-left cRr6Bf2" __cid="cRr6Bf2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cRr6Bf2" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cRr6Bf2"> 
+            <i class="icon-chevron-left cRr6Bf2" __cid="cRr6Bf2"/>  
+            <span __cid="cRr6Bf2" class="cRr6Bf2"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cRr6Bf2" __cid="cRr6Bf2">用户信息</div>  
+        <div class="x-titlebar-right  cRr6Bf2" __cid="cRr6Bf2"> 
+          <div class="empty cRr6Bf2" __cid="cRr6Bf2"/>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cRr6Bf2" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;linear linear-bubble&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cRr6Bf2"> 
+            <i xid="i1" class="linear linear-bubble cRr6Bf2" __cid="cRr6Bf2"/>  
+            <span xid="span1" __cid="cRr6Bf2" class="cRr6Bf2"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cRr6Bf2" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRr6Bf2"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group cRr6Bf2" xid="controlGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="cRr6Bf2"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cRr6Bf2" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRr6Bf2"> 
+          <label class="x-label cRr6Bf2" xid="label1" __cid="cRr6Bf2" data-bind="text:$model.UserData.label(&quot;fUserName&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRr6Bf2" xid="input1" data-bind="component:{ref:$model.UserData.ref(&quot;fUserName&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cRr6Bf2"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cRr6Bf2" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRr6Bf2"> 
+          <label class="x-label cRr6Bf2" xid="label2" __cid="cRr6Bf2" data-bind="text:$model.UserData.label(&quot;fPassWord&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRr6Bf2" xid="input2" data-bind="component:{ref:$model.UserData.ref(&quot;fPassWord&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cRr6Bf2"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cRr6Bf2" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRr6Bf2"> 
+          <label class="x-label cRr6Bf2" xid="label3" __cid="cRr6Bf2" data-bind="text:$model.UserData.label(&quot;fName&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRr6Bf2" xid="input3" data-bind="component:{ref:$model.UserData.ref(&quot;fName&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cRr6Bf2"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cRr6Bf2" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRr6Bf2"> 
+          <label class="x-label cRr6Bf2" xid="label4" __cid="cRr6Bf2" data-bind="text:$model.UserData.label(&quot;fAut&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRr6Bf2" xid="input4" data-bind="component:{ref:$model.UserData.ref(&quot;fAut&quot;),name:'$model/UI2/system/components/justep/input/input'},text:" __cid="cRr6Bf2"/> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cRr6Bf2" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRr6Bf2"> 
+          <label class="x-label cRr6Bf2" xid="label5" __cid="cRr6Bf2" data-bind="text:$model.UserData.label(&quot;fDepartment&quot;)"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRr6Bf2" xid="input5" data-bind="component:{ref:$model.UserData.ref(&quot;fDepartment&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cRr6Bf2"/> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cRr6Bf2" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cRr6Bf2"> 
+        <div class="x-col cRr6Bf2" xid="col1" __cid="cRr6Bf2"> 
+          <p xid="p1" style="text-align:center;" __cid="cRr6Bf2" class="cRr6Bf2">权限： 1工作人员，2管理员</p> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cRr6Bf2" class="cRr6Bf2">.x-panel.pczqAryq-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pczqAryq-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pczqAryq-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pczqAryq-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczqAryq-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pczqAryq-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pczqAryq-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczqAryq-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pczqAryq-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>
